@@ -135,6 +135,9 @@ model.
 
 ## Installation
 
+- Using `poetry` will help ensure you are running with the same versions of
+  python and the project dependencies. See https://python-poetry.org/ for
+  details.
 - This requires the excellent `dvd_info` tool. See
   https://github.com/beandog/dvd_info for installation instructions.
 - This also requires the also excellent `HandBrakeCLI`. See
@@ -142,7 +145,14 @@ model.
 - Once you have those tools installed and in the PATH, you should:
   - `git clone git@github.com:My-Little-Cable-Co/rip.git`
   - `cd rip`
-  - `python3 rip/rip.py`
+  - `poetry shell`
+  - `python3 rip/start.py`
+
+
+## Testing
+
+- `poetry shell`
+- `pytest`
 
 
 ## Disclaimer
