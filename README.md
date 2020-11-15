@@ -128,9 +128,9 @@ model.
 
 ## Planned Features
 
-- Look for existing ripping guides and use them if available
+- Look for existing ripping guides and use them if available (works locally
+  now, will attempt to retrieve from the internet in the future)
 - Override HandBrake config with local preferences
-- Support DVD bonus features with plex-supported naming conventions
 
 
 ## Installation
